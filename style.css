@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body-container {
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+header {
+  background: url(/images/image-hero-desktop.jpg);
+  background-color: rgb(255, 255, 255);
+  background-size: 135vw 80vh;
+  background-position: -270px;
+  padding: 0 250px;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  height: 150px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+h1 {
+  font-family: "Questrial", sans-serif;
+  font-size: 25px;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  position: relative;
+}
+
+li:hover:before {
+  content: "";
+  background: rgb(255, 255, 255);
+  width: 27px;
+  height: 2px;
+  position: absolute;
+  bottom: -0px;
+  margin-left: 13px;
+}
+
+.middle-link {
+  margin: 0 40px;
+}
+
+a {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 50;
+  text-decoration: none;
+  color: white;
+}
+
+.mother-container {
+  width: 750px;
+  margin: 0 auto;
+  margin-top: -100px;
+  padding-bottom: 250px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.mastercraft-container {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+.mastercraft-logo {
+  margin-top: -30px;
+}
+
+h2 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: rgb(134, 134, 134);
+}
+
+.btn-container {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.backthisproject-btn {
+  border-radius: 29px;
+  background-color: rgb(60, 180, 172);
+  color: white;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 550;
+  transition: 200ms ease-in-out;
+}
+
+.backthisproject-btn:hover {
+  background-color: rgb(20, 123, 116);
+}
+
+.bookmark-btn {
+  border-radius: 29px;
+  background-color: hsl(0, 0%, 93%);
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  font-size: 16px;
+  font-weight: 550;
+  width: 10em;
+}
+
+.bookmark-icon-container {
+  border-radius: 50%;
+  display: flex;
+  transition: 200ms ease-in-out;
+}
+
+.bookmark-icon-container:hover {
+  background-color: black;
+  opacity: 0.3;
+}
+
+.bookmark {
+  margin: 0 15px;
+}
+
+.backes-container {
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  margin: 30px 0;
+  padding: 40px;
+}
+
+.backes {
+  text-align: left;
+}
+
+.number {
+  font-family: "Mukta", sans-serif;
+  font-weight: 800;
+  font-size: 38px;
+}
+
+.number-paragraph {
+  margin: auto 5px;
+}
+
+.total-backers {
+  border-left: 2px solid rgb(230, 230, 230);
+  border-right: 2px solid rgb(230, 230, 230);
+  margin: 0 50px;
+  padding: 0 50px;
+}
+
+.main-container {
+  padding: 60px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.about {
+  border-radius: 10px;
+  background-color: white;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 22px;
+}
+
+.about-middle-paragraph {
+  margin: 30px 0;
+}
+
+.discovery {
+  margin-top: 30px;
+  border: 2px solid rgb(240, 240, 240);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+}
+
+.discovery-header-paragraph {
+  color: rgb(60, 180, 172);
+  font-weight: 500;
+}
+
+.mahogany-header-paragraph {
+  color: rgb(145, 145, 145);
+  font-weight: 500;
+}
+
+.discovery-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discovery-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number-container {
+  display: flex;
+}
+
+.h2-paragraph {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.select-reward-btn {
+  border-radius: 29px;
+  background-color: rgb(60, 180, 172);
+  color: white;
+  padding: 20px 60px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 550;
+  transition: 200ms ease-in-out;
+}
+
+.select-reward-btn:hover {
+  background-color: rgb(20, 123, 116);
+}
+
+.mahogany-discovery {
+  margin-top: 30px;
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+  opacity: 0.5;
+}
+
+.mahogany-select-btn {
+  background-color: rgb(140, 140, 140);
+}
+
+.mahogany-select-btn:hover {
+  background-color: rgb(100, 100, 100);
+}
+
+@media (max-width: 1100px) {
+  header {
+    background-size: cover;
+    background-position: -450px;
+    padding: 0 20px;
+    padding-top: 30px;
+    padding-bottom: 320px;
+  }
+
+  .hamburger-icon {
+    display: block;
+    width: 2.5%;
+    height: 17px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .mother-container {
+    width: 90%;
+    margin-top: -60px;
+  }
+
+  h2 {
+    font-size: 33px;
+    margin-top: 1px;
+  }
+
+  .h2-paragraph {
+    font-size: 18.5px;
+  }
+
+  .btn-container {
+    width: 90%;
+    margin-top: 25px;
+  }
+
+  .backthisproject-btn {
+    width: 60%;
+    margin-right: 30px;
+  }
+
+  .bookmark-btn {
+    width: 10px;
+    height: 100%;
+  }
+
+  .bookmark {
+    display: none;
+  }
+
+  .backes-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .backes {
+    text-align: center;
+  }
+
+  .total-backers {
+    width: 40%;
+    text-align: center;
+    border: 0;
+    border-top: 2px solid rgb(230, 230, 230);
+    border-bottom: 2px solid rgb(230, 230, 230);
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px 0;
+  }
+
+  .main-container {
+    padding: 30px;
+  }
+
+  .discovery-header {
+    flex-direction: column;
+  }
+
+  .discovery-footer {
+    flex-direction: column;
+    width: max-content;
+  }
+}
+
+@media (max-width: 370px) {
+  .select-reward-btn {
+    padding: 20px 20px;
+  }
+}
